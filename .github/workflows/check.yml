@@ -15,7 +15,7 @@ on:
       concurrency:
         description: '并发数（建议 16–32）'
         required: false
-        default: '32'
+        default: '16'
       timeout:
         description: '单节点检测超时（秒）'
         required: false
